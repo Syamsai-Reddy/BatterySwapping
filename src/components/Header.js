@@ -10,7 +10,7 @@ const Title = () => (
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between bg-white shadow-lg h-20 sticky top-0">
+        <div className="flex items-center justify-between bg-white shadow-lg h-20 sticky top-0 z-[999]">
             <Title />
             <div className="nav-items">
                 <div className="flex  py-10 ">
